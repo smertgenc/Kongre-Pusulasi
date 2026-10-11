@@ -1,0 +1,1 @@
+"""Kongre Pusulası application package."""

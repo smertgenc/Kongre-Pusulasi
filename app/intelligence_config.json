@@ -1,0 +1,24 @@
+{
+  "recommendation_weights": {"similarity": 0.45, "ahp": 0.35, "personal_fit": 0.20},
+  "similarity_weights": {"text": 0.55, "tags": 0.20, "fields": 0.15, "criteria": 0.10},
+  "fingerprint_weights": {"organizer": 0.20, "domain": 0.20, "email_domains": 0.15, "committee": 0.15, "text": 0.10, "address": 0.05, "publication": 0.10, "history": 0.05},
+  "fingerprint_thresholds": [40, 70, 85],
+  "minimum_similarity": 35,
+  "minimum_topic_similarity": 20,
+  "minimum_recommendations": 3,
+  "maximum_recommendations": 5,
+  "maximum_text_characters": 60000,
+  "aliases": {
+    "artificial_intelligence": ["artificial intelligence", "yapay zeka", "ai"],
+    "data_science": ["data science", "veri bilimi"],
+    "machine_learning": ["machine learning", "makine ogrenmesi", "ml"],
+    "management_information_systems": ["management information systems", "yonetim bilisim sistemleri", "mis", "ybs"],
+    "business_analytics": ["business analytics", "is analitigi"],
+    "business_intelligence": ["business intelligence", "is zekasi"],
+    "large_language_models": ["large language models", "large language model", "buyuk dil modelleri", "llm", "llms"],
+    "human_computer_interaction": ["human computer interaction", "insan bilgisayar etkilesimi", "hci"],
+    "robotics": ["robotic", "robotics", "robotik"],
+    "online": ["cevrim ici", "online", "virtual"],
+    "hybrid": ["hibrit", "hybrid"]
+  }
+}
